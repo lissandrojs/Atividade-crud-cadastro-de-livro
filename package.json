@@ -1,0 +1,21 @@
+{
+  "name": "atividade-crud-cadastro-de-livro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lissandrojs/Atividade-crud-cadastro-de-livro.git",
+  "author": "Lissandro kenziano <lissandromr@hotmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
